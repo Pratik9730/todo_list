@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body{
+    margin: 1%;
+    background: linear-gradient(30deg, #59C173, #a17fe0);
+  }
+  
+  /*for input box*/
+#addtaskinput{
+  display: flex;
+  font-family: 'Libre Baskerville', serif;
+  height: 2.5rem;
+  border-color: #74ee15;
+  border-radius: 5px;
+  width: 25rem;
+  margin-top: 0;
+  margin-left: 4%;
+  font-size: 28px;
+}
+/*for add taskplus button*/
+#addtaskbtn{
+  display: flex;
+  color: #74ee15;
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 2%;
+  
+}
+
+#addValue{
+  background:green;
+  border-radius:10px;
+  display: flex;
+}
+
+ .heading{
+  font-family: 'Potta One', cursive;
+   color: #86dfe2;
+   margin-left: 5%;
+ }
+
+.fas fa-plus-square, .fa fa-edit, .far fa-check-square, .fa fa-trash{
+   pointer-events: none;
+ }
+/* inner html table*/
+ .inner_table{
+   display: flex;
+   font-family: 'Libre Baskerville', serif;
+   border-radius:10px;
+   margin-top: 2%;
+   margin-left: 5%;
+   font-size: 2rem;
+   background:white;
+   color: black;
+ }
+/*for edit button inside inner table*/
+ .edit_todo{
+  display: flex;
+  font-size: 3vh;
+  background-color:#fffbfb ;
+  color:#2929CE;
+  padding:4px;
+  border-radius:4px;
+}
+
+/* for delete todo inside inner table*/
+.delete_todo{
+  display: flex;
+  font-size: 3vh;
+ padding:4px;
+ color: red;
+ background-color: #494949;
+ border-radius:4px;
+}
+
+/*for checkbox inside inner table*/
+.text-success{
+  display: flex;
+  font-size: 3vh;
+ background-color:#ffffff;
+ color:#219224;
+ padding:4px;
+ border-radius:4px;
+}
+
+#savetaskbtn{
+  margin-left: 5%;
+  font-size: 20px;
+  margin-top:3%;
+  height: 40px;
+  border-radius:5px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:rgb(94, 94, 94);
+  color: #74ee15;
+}
+
+/*for outer delete button*/
+.del_button{
+  background-color: springgreen;
+  color: red;
+  font-size:25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer_table{
+  max-width: 100px;
+}
+
+.completed{text-decoration: line-through;}
+

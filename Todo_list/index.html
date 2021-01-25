@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Potta+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8bd196079c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+       <fieldset>
+         <legend class ='heading'> <h1> Your Todo List</h1> </legend>
+          <table class ='outer_table'>
+           <tr>
+              <td>
+                <input type="text"  placeholder="Enter your task" id="addtaskinput" /> 
+              </td>
+              <td>
+                 <i class="fas fa-plus-square" id="addtaskbtn"></i>
+              </td>
+            </tr>  
+                <tr>
+                <td>
+                    <input type="hidden" id="saveindex"> 
+                    <button type="button" id="savetaskbtn" style="display: none;">
+                      Save Task
+                    </button>
+                <td>
+                </tr>
+              
+               <tr>
+                   <td class = 'inner_table'> 
+                      <table id="addedtasklist"></table>
+                   </td>
+                    <td>
+                      <img src = "bg.png"  alt = "bg text" class = "image"/>
+                    </td>
+                </tr>
+              <tr>
+              <td>
+                 <button type="button" id="deleteallbtn" class= "del_button">
+                Delete All
+              </button>
+              <button type="button" id="deletealcompleted" class= "del_button">
+                Delete Completed
+            </td>
+             </tr>
+        </table>  
+        </fieldset>  
+
+  <script src = 'index.js'></script>
+</body>
+
+</html>
